@@ -5,4 +5,4 @@ const checkBalance = (b) => {
     return console.log( b < balanceMin ? "Your balance is too low to qualify for No-Transaction fee." : "You qualify for No-Transaction fee.");
 }
 
-checkBalance(balance);
+checkBalance(100);
